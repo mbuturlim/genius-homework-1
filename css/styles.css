@@ -1,0 +1,107 @@
+@font-face {
+  font-display: swap;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/roboto-v30-latin-regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/roboto-v30-latin-500.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/roboto-v30-latin-700.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Play";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/play-v19-latin-regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Play";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/play-v19-latin-700.woff2") format("woff2");
+}
+
+:root {
+  --color-primary-light: #fff;
+  --color-primary-blue: #2b7fff;
+  --color-primary-dark: #011c44;
+  --color-secondary-dark-grey: #4a4a4a;
+  --color-secondary-grey: #4a4a4a;
+  --color-secondary-light-grey: #747272;
+  --color-secondary-dark: #011f4a;
+  --color-secondary-yellow: #ffd02b;
+}
+
+body {
+  color: var(--color-primary-dark);
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+}
+/* Header */
+.header-link {
+  color: var(--color-primary-dark);
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.header-link:hover {
+  font-size: 18px;
+  color: var(--color-primary-blue);
+  font-weight: 700;
+}
+/* Main Section */
+.main-subtitle {
+  font-size: 18px;
+}
+
+.main-title {
+  color: var(--color-primary-blue);
+  font-family: Play, sans-serif;
+  font-size: 140px;
+  font-weight: 700;
+  line-height: 0.8;
+  text-transform: capitalize;
+  text-align: left;
+}
+
+.main-button {
+  color: var(--color-primary-light);
+  font-size: 18px;
+  font-weight: 600;
+  background-color: var(--color-primary-blue);
+  border-radius: 32px;
+  border-color: var(--color-primary-blue);
+  padding: 16px 32px;
+}
+
+.main-button:hover {
+  color: var(--color-primary-dark);
+  font-size: 18px;
+  font-weight: 600;
+  background-color: transparent;
+  border-radius: 32px;
+  border: 2px solid var(--color-primary-blue);
+}
+
+.main-text {
+  color: var(--color-secondary-dark-grey);
+  font-size: 12px;
+}
