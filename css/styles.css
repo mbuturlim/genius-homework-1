@@ -55,7 +55,29 @@ body {
   font-weight: 400;
   line-height: 1.5;
 }
+
+ul {
+  list-style-type: none;
+}
+
+/* Section Titles */
+
+.title {
+  font-family: "Play", sans-serif;
+  font-size: 64px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.headings {
+  font-family: "Play", sans-serif;
+  font-size: 64px;
+  font-weight: 700;
+  color: var(--color-primary-blue);
+}
+
 /* Header */
+
 .header-link {
   color: var(--color-primary-dark);
   font-size: 18px;
@@ -67,7 +89,9 @@ body {
   color: var(--color-primary-blue);
   font-weight: 700;
 }
+
 /* Main Section */
+
 .main-subtitle {
   font-size: 18px;
 }
@@ -84,12 +108,15 @@ body {
 
 .main-button {
   color: var(--color-primary-light);
+  font-family: "Roboto", sans-serif;
   font-size: 18px;
   font-weight: 600;
   background-color: var(--color-primary-blue);
   border-radius: 32px;
   border-color: var(--color-primary-blue);
+  border-style: dashed;
   padding: 16px 32px;
+  cursor: pointer;
 }
 
 .main-button:hover {
@@ -105,3 +132,38 @@ body {
   color: var(--color-secondary-dark-grey);
   font-size: 12px;
 }
+
+/* About us section */
+
+.about-us .headings {
+  font-family: "Play", sans-serif;
+  font-size: 64px;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: var(--color-primary-blue);
+}
+
+.about-us-text {
+  font-size: 22px;
+  line-height: 1.7;
+  text-align: left;
+}
+
+.about-us-text .about-us-bold {
+  font-size: 22px;
+  line-height: 1.7;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+/* Why Choose Us section */
+
+.why-choose-us-advantages {
+  font-size: 18px;
+  line-height: 1.3;
+  text-align: center;
+}
+
+/* Our procedures section */
+
+/*  */
