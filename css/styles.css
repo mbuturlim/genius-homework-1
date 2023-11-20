@@ -135,12 +135,12 @@ ul {
 
 /* About us section */
 
+.about-us {
+  text-align: left;
+}
+
 .about-us .headings {
-  font-family: "Play", sans-serif;
-  font-size: 64px;
-  font-weight: 700;
   text-transform: capitalize;
-  color: var(--color-primary-blue);
 }
 
 .about-us-text {
@@ -166,4 +166,31 @@ ul {
 
 /* Our procedures section */
 
-/*  */
+.procedures-list {
+  color: var(--color-primary-light);
+  font-size: 22px;
+  line-height: 1.1;
+}
+
+/* Footer */
+
+footer {
+  background-color: var(--color-primary-dark);
+}
+
+.address-list-footer {
+  color: var(--color-primary-light);
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.address-list-footer:hover {
+  color: var(--color-primary-blue);
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.copyright {
+  color: var(--color-secondary-light-grey);
+  font-size: 13px;
+}
